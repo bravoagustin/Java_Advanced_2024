@@ -18,7 +18,7 @@ public class TipoVar {
         var esCasado = false; // se infiere tipo boolean
         esCasado = true;
 
-        System.out.println("esCasado + sueldo = " + esCasado + sueldo);
+        System.out.println("es casado? y su sueldo? = " + esCasado + " " + sueldo);
 
         //concatenado
         var nombre = "jesus";

@@ -14,7 +14,7 @@ public class BusquedaDeSubcadenas {
         var indice2 = cadena1.lastIndexOf("Mundo");
         System.out.println("indice2 = " + indice2);
         // subcadena no encontrada devuelve -1
-        var indice3 = cadena1.indexOf("Java");
+        var indice3 = cadena1.lastIndexOf("Java");
         System.out.println("indice3 = " + indice3);
     }
 

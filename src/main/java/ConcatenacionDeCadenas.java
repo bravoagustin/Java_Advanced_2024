@@ -10,7 +10,7 @@ public class ConcatenacionDeCadenas {
         cadena3 = cadena1.concat(" ").concat("Mundo");
         System.out.println("cadena3 = " + cadena3);
 
-        //StringBuilder new es clase
+        //StringBuilder new es nueva clase.
         var constructorCadenas = new StringBuilder();
         constructorCadenas.append(cadena1);
         constructorCadenas.append(" ");

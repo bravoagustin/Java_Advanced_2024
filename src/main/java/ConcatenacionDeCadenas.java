@@ -12,10 +12,21 @@ public class ConcatenacionDeCadenas {
 
         //StringBuilder new es nueva clase.
         var constructorCadenas = new StringBuilder();
-        constructorCadenas.append(cadena1);
-        constructorCadenas.append(" ");
-        constructorCadenas.append(cadena2);
+//        constructorCadenas.append(cadena1);
+//        constructorCadenas.append(" ");
+//        constructorCadenas.append(cadena2);
+
+        constructorCadenas.append(cadena1).append(" ").append(cadena2).toString();
         var resultado = constructorCadenas.toString();
         System.out.println("resultado = " + resultado);
+
+        //StringBuffer
+        var stringBuffer = new StringBuffer();
+        stringBuffer.append(cadena1).append(" ").append(cadena2);
+        System.out.println("resultado buffer= " + resultado);
+
+        //join
+        resultado = String.join(" ", cadena1, cadena2);
+        System.out.println("resultado join = " + resultado);
     }
 }

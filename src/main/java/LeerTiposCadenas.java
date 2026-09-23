@@ -8,5 +8,10 @@ public class LeerTiposCadenas {
         System.out.print("ingresa tu edad: ");
         var edad = consola.nextInt();
         System.out.println("edad = " + edad);
+
+        //double
+        System.out.print("ingresa tu altura: ");
+        var altura = consola.nextDouble();
+        System.out.println("altura =" + altura);
     }
 }

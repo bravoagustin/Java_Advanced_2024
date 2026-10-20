@@ -12,6 +12,6 @@ public class LeerTiposCadenas {
         //double
         System.out.print("ingresa tu altura: ");
         var altura = consola.nextDouble();
-        System.out.println("alturaaa =" + altura);
+        System.out.println("altura =" + altura);
     }
 }

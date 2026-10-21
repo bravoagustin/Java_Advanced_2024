@@ -10,7 +10,7 @@ public class LeerTiposCadenas {
         System.out.println("edad = " + edad);
 
         //double
-        System.out.print("ingresa tu altura: ");
+        System.out.print("ingresa tu alturaaa: ");
         var altura = consola.nextDouble();
         System.out.println("altura =" + altura);
     }
